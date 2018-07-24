@@ -19,7 +19,7 @@ public class CrazyCatLady {
 		JOptionPane.showMessageDialog(null,("You're a crazy cat lady"));	
 		}else if (num<3&&num>0){
 			playVideo("https://www.youtube.com/watch?v=wP3qSIRIqLs");
-		}else if (num=0) {
+		}else if (num==0) {
 			playVideo("https://www.youtube.com/watch?v=ro7qgD5To1A");
 		}
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
